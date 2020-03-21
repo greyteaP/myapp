@@ -11,7 +11,7 @@ RUN apt-get update -qq && \
 
 
 # 作業ディレクトリを作成・指定
-RUN mkdire /myapp
+RUN mkdir /myapp
 WORKDIR /myapp
 
 # ローカルのGemfileをDokcerにコピー
